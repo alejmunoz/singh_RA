@@ -99,7 +99,7 @@ To reproduce the empirical pipeline from raw data to table estimation, run the s
 $$FCF_t = GVA_t - \text{Compensation}_t - \text{Taxes}_t - \text{Gross Investment}_t$$
 
 * **Enterprise Value ($V_t$):**
-$$V_t = \text{Market Value of Nonfinancial Assets}_{\text{Corporate}} + \text{Market Value of Nonfinancial Assets}_{\text{Financial Sectors}}$$
+$$V_t = \text{Market Value of Equity}_t + \text{Total Liabilities}_t - \text{Total Financial Assets}_t$$
 
 * **Cyclically Adjusted EV/FCF ($CAEVFCF_t$):**
 $$CAEVFCF_t = \frac{V_t / CPI_t}{\frac{1}{10}\sum_{j=0}^{9} FCF_{t-j} / CPI_{t-j}}$$
