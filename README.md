@@ -106,7 +106,7 @@ $$CAEVFCF_t = \frac{V_t / CPI_t}{\frac{1}{10}\sum_{j=0}^{9} FCF_{t-j} / CPI_{t-j
 
 * **Real Total Return ($R^{real}_t$):**
 $$
-R^{real}_t = \frac{P^{Dec}_t + D_t}{P^{Dec}_{t-1}} \cdot \frac{CPI^{Dec}_{t-1}}{CPI^{Dec}_t}
+R^{real}_t = \frac{P_t + D_t}{P_{t-1}} \cdot \frac{CPI_{t-1}}{CPI_t}
 $$
 
 * **Forward Log Real Total Return ($r_{t \to t+h}$):**
