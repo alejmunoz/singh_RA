@@ -114,7 +114,10 @@ $$
 $$r_{t \to t+h} = \frac{1}{h}\sum_{j=1}^{h} \log\left(1 + R^{real}_{t+j}\right)$$
 
 * **Out-of-Sample $R^2$ (Goyal and Welch, 2008):**
-$$R^2_{OOS} = 1 - \frac{\sum_t (r_t - \hat{r}_t)^2}{\sum_t (r_t - \bar{r}_{t-1})^2}$$
+
+$$
+R^2_{OOS} = 1 - \frac{\sum_t (r_t - \hat{r}_t)^2}{\sum_t (r_t - \bar{r}_{t-1})^2}
+$$
 
   where $\bar{r}_{t-1}$ is the expanding prevailing mean of returns up to $t-1$.
 
