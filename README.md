@@ -105,6 +105,7 @@ $$V_t = \text{Market Value of Equity}_t + \text{Total Liabilities}_t - \text{Tot
 $$CAEVFCF_t = \frac{V_t / CPI_t}{\frac{1}{10}\sum_{j=0}^{9} FCF_{t-j} / CPI_{t-j}}$$
 
 * **Real Total Return ($R^{real}_t$):**
+
 $$
 R^{real}_t = \frac{P_t + D_t}{P_{t-1}} \cdot \frac{CPI_{t-1}}{CPI_t}
 $$
