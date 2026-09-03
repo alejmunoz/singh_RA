@@ -1,6 +1,6 @@
 # Replication of Marin and Singh (2026): Macroeconomic Free Cash Flow Yield as a Return Predictor
 
-This repository replicates the empirical results in **Marin and Singh (2026)**, *"Macroeconomic Free Cash Flow Yield as a Return Predictor"*. The codebase constructs **CAEVFCF** (Cyclically Adjusted Enterprise Value to Free Cash Flow ratio) using U.S. Integrated Macroeconomic Accounts (IMA) and NIPA data, and evaluates its in-sample and out-of-sample forecasting performance for long-horizon real S&P 500 returns against Shiller's CAPE and Goyal et al. (2024) predictors.
+This repository replicates the empirical results in **Marin and Singh (2026)**, *"Macroeconomic Free Cash Flow Yield as a Return Predictor"*. The codebase constructs **CAEVFCF** (Cyclically Adjusted Enterprise Value to Free Cash Flow ratio) using BEA National Income and Product Accounts (NIPA), BEA Fixed Assets Accounts (FA), Fed Financial Accounts of the US, Statistics of Income 1945, CRSP Market Cap, and Shiller's CAPE data, and evaluates its in-sample and out-of-sample forecasting performance for long-horizon real S&P 500 returns against Shiller's CAPE and Goyal et al. (2024) predictors.
 
 ---
 
@@ -9,7 +9,7 @@ This repository replicates the empirical results in **Marin and Singh (2026)**, 
 ```text
 .
 ├── Data/                             # Raw source datasets
-│   ├── CleandataMarch2026extra.xlsx  # Raw macro data (IMA/NIPA)
+│   ├── CleandataMarch2026extra.xlsx  # Raw macro data (NIPA/FA/Statistics of Income 1945/CRSP Market Cap/Fed Financial Accounts)
 │   ├── goyal_Data2024.xlsx           # Goyal et al. (2024) annual predictors
 │   └── ie_data.xlsx                  # Shiller's online dataset (P, D, CPI, CAPE)
 ├── Derived/                          # Intermediate & final constructed datasets
